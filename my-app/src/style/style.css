@@ -1,0 +1,21 @@
+.app {
+  border: 1px solid #777;
+  box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  min-height: 60vh;
+  padding: 20px;
+}
+.item-enter {
+  transform: translateX(350px);
+}
+.item-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}
